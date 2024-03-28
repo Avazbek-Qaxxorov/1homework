@@ -1,0 +1,339 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+/* -------------------------------NAV START------------------------- */
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 25px 0;
+}
+.nav-list {
+    text-transform: uppercase;
+    list-style-type: none;
+    display: flex;
+    gap: 0 40px;
+}
+.nav-link > a {
+    text-decoration: none;
+    color: #222222;
+}
+.select-contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3A3A3B;
+    width: 160px;
+    height:40px;
+    border-radius: 5px;
+}
+.select-contact > img {
+    max-width: 34px;
+    /* height: 34px; */
+}
+.select {
+    text-transform: capitalize;
+    background-color: #3A3A3B;
+    color: #FFFFFF;
+    border: none;
+}
+/* ------------------------NAV END--------------------- */
+
+
+
+/* -------------------------HEADER START--------------------- */
+.header-wrapper {
+    margin-top: 91px;
+    display: flex;
+    gap: 0 170px;
+}
+.header-card {
+    max-width: 454px;
+    /* height: 146px; */
+}
+.header-card > strong {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 8.5px;
+    color: #222222;
+}
+.header-card > h3 {
+    margin-top: 43px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 65px;
+}
+.header-card > p {
+    margin-top: 39px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 3%;
+}
+.header-link {
+    display: flex;
+    align-items: center;
+    gap: 0 20px;
+}
+.header-link > a {
+    padding: 10px 35px;
+    background-color: #222222;
+    text-decoration: none;
+    color: #fff;
+}
+.header-link > img {
+    margin-top: px;
+    padding: 7px 10px;
+    border: 1px solid #222222;
+    border-radius: 50%;
+    /* max-width: 27px;
+    height: 27px; */
+}
+/* -------------------------HEADER END------------------------ */
+
+
+/* ----------------------ABOUT US START-------------------- */
+.about-wrapper {
+    display: flex;
+    gap: 40px 60px;
+}
+.about-card {
+    position: relative;
+    margin-top: 235px;
+}
+.about-list {
+    width: 303px;
+    height: 274px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: absolute;
+    bottom: -80px;
+    right: -50px ;
+    background-color: white;
+    border-radius: 15px;
+}
+.about-list-item > a {
+    text-align: center;
+    padding: 8px 18px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #222222;
+    margin-top: 45px;
+    position: absolute;
+    bottom:-20px;
+    left: 80px;
+}
+.about-list-item  {
+    display: flex;
+    flex-direction: column;
+}
+.about-input {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #222;
+}
+.about-checkbox {
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border: 1px solid black;
+    background-position: center;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+.about-checkbox:checked {
+    background-color: #222;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url("../image/check.svg");
+}
+.about-cards{
+    margin-top: 358px;
+}
+.about-cards > h3 {
+    width: 576px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.5px;
+    color: #222222;
+}
+.about-cards > small {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 33px;
+    color: #222222;
+}
+/* ---------------------ABOUT US END-----------------------*/
+
+/* ----------------------TAKE AWAY START--------------------- */
+.take {
+    margin-bottom: 216px;
+}
+.take-wrapper {
+    margin-top: 186px;
+    display: flex;
+}
+.take-card {
+    padding: 15px 0;
+}
+.take-card > h3 {
+    width: 476px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    color:#222222;
+}
+.take-card > span {
+    width: 520px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 26px;
+    color: #444444;
+}
+.take-card > p{
+    width: 520px;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 20px;
+    line-height: 45px;
+    color: #444444
+}
+.take-card > a {
+    padding-bottom: 40px;
+    padding: 12px 25px;
+    background-color: #fff;
+    color: #222;
+    text-decoration: none;
+    border: 1px solid #222;
+}
+.take-card > a:hover {
+    background-color: #222222;
+    color: #fff;
+}
+.take-list {
+    position: absolute;
+    bottom: -70px;
+    left: -30px;
+    width: 400px;
+    height: 266px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 25px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.take-img-item {
+    padding-bottom: 15px;
+    color: #444444;
+}
+.take-text {
+    width: 329px;
+    line-height: 25px;
+    font-size: 15px;
+    color: #444444;
+    font-weight: 400;
+}
+.take-title > p {
+    padding: 10px 0;
+    text-transform: capitalize;
+    display: inline-block;
+    color: #444444;
+}
+.take-cards {
+    position: relative;
+}
+/*--------------------------TAKE AWAY END---------------------*/
+
+
+/* ----------------------CONTACT US START--------------------- */
+.contact {
+    margin-bottom: 166px;
+}
+.contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-wrapper > h2 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    width: 668px;
+}
+.contact-wrapper > strong {
+    max-width: 800px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+}
+/*-----------------------CONTACT US START----------------------*/
+
+
+/*-----------------------TESTIMONAL START-----------------------*/
+.test-wrapper {
+    display: flex;
+    gap: 0 60px;
+}
+.test-card > img {
+    max-width: 260px;
+    /* height: 325px; */
+}
+.test-card >h3 {
+    margin-top: 26px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #222222;
+}
+.test-card > span {
+    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #444444;
+}
+/*-------------------------TESTIMONAL END-----------------------*/
+
+
+
+/*----------------------------FOOTER STAR-------------------------*/
+footer {
+    margin-top: 120px;
+    padding-top: 116px ;
+    background-color: #F5F5FF;
+    
+}
+.footer-wrapper {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+.card > a {
+    text-decoration: none;
+    color: #222222;
+}
+.line {
+    margin: 70px 0;
+    border: 1px solid #222;
+    width: 100%;
+}
+.cards {
+    text-align: center;
+}
+/*-----------------------------FOOTER END--------------------------*/
